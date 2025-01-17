@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative website using HTML5 semantic elements">
+    <title>Creative Website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Superhero Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>Introduction</h2>
+            <article>
+                <h3>About This Website</h3>
+                <p>This website showcases the use of HTML5 semantic elements, multimedia, forms, and more. Explore and enjoy!</p>
+            </article>
+            <aside>
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="https://example.com">External Resource</a></li>
+                    <li><a href="#">Learn More</a></li>
+                </ul>
+            </aside>
+        </section>
+
+        <section id="section2">
+            <h2>Interactive Elements</h2>
+            <figure>
+                <img src="flash.jpg" alt="An example image">
+                <figcaption>The Falsh</figcaption>
+            </figure>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="character">Favorite Character:</label>
+                <input list="characters" id="character" name="character">
+                <datalist id="characters">
+                    <option value="Flash">
+                    <option value="Batman">
+                    <option value="Superman">
+                    <option value="Woderwomen">
+                </datalist>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="section3">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out:</p>
+            <ul>
+                <li>Phone: <a href="tel:8573959531">+8573959531</a></li>
+                <li>Email: <a href="huang.rui9@northeastern.edu">huang.rui9@northeastern.edu</a></li>
+            </ul>
+
+            <details>
+                <summary>More Contact Details</summary>
+                <p>We are available on weekdays from 9 AM to 6 PM.</p>
+            </details>
+
+            <audio controls>
+                <source src="home.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <video controls width="320">
+                <source src="falsh111.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <table>
+            <caption>Example Table</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Occupation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Barry</td>
+                    <td>30</td>
+                    <td>Flash</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Superhero Website</p>
+    </footer>
+</body>
+</html>
